@@ -10,7 +10,7 @@ console.log(teas["type"]);
 
 //Problem: Add a new Property origin to the tea object
 
-teas.origin = "China";
+teas.origin = "China country";
 console.log(teas);
 
 //Problem : Change the caffeine level to the tea object to medium

@@ -1,6 +1,6 @@
 function convertTemperature(value, scale) {
     // Convert temperature based on the scale ("C" to "F" or "F" to "C")
-      
+    //checking why undefind is coming 
     let convertedvalue ;
     switch (scale){
         
@@ -22,4 +22,4 @@ function convertTemperature(value, scale) {
      
   }
 
-  console.log (convertTemperature(32,'F'))
+  console.log (convertTemperature(78,'F'))

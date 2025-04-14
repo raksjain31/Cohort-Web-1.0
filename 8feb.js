@@ -45,16 +45,16 @@ for (let i = 0; i < teas.length; i++) {
 console.log(Uppercaseteas);
 
 //use a for loop to find the tea name with most characters
-let longestTea = "";
+let longestTeas = "";
 for (let i=0 ; i < teas.length; i++) 
     {
-        if(teas[i].length > longestTea.length) {
-            longestTea = teas[i];
+        if(teas[i].length > longestTeas.length) {
+            longestTeas = teas[i];
         }
 
     }
 
-    console.log(longestTea);
+    console.log(longestTeas);
 
     //use a for loop to reverse a reverse the array of teas in the array
 
